@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>처녀자리 결과</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background-color: #45357D;
+      font-family: 'Pretendard', sans-serif;
+      color: #fff;
+      padding: 40px 16px 100px;
+    }
+    .container {
+      width: 100%;
+      max-width: 485px;
+      margin: 0 auto;
+    }
+    .header { text-align: center; margin-bottom: 32px; }
+    .header img { width: 180px; margin-bottom: 12px; }
+    .header h1 { font-size: 22px; font-weight: 700; color: #FFD579; }
+    .header p { font-size: 14px; color: #FFD579; margin-top: 4px; }
+
+    .card {
+      background: rgba(255, 255, 255, 0.08);
+      border-radius: 16px;
+      padding: 20px 24px;
+      margin-bottom: 16px;
+      backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+    .card.myth {
+      background-color: #45357D;
+      border: none;
+    }
+
+    .card h2 {
+      font-size: 18px;
+      color: #FFEA92;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+      padding-left: 8px;
+      padding-bottom: 4px;
+      border-left: 3px solid #ffea92;
+    }
+
+    .card h2::before { content: '✨'; margin-right: 8px; }
+    .card p { font-size: 14px; line-height: 1.8; }
+
+    .highlight { color: #FFD579; font-weight: bold; }
+    .good { color: #56bad6; font-weight: bold; }
+    .bad { color: #FFC0CB; font-weight: bold; }
+    .spaced { margin-top: 14px; }
+
+    .extra-buttons {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .sub-button {
+      background-color: rgba(255, 255, 255, 0.1);
+      color: #fff;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      padding: 10px 20px;
+      border-radius: 25px;
+      font-size: 14px;
+      cursor: pointer;
+      backdrop-filter: blur(6px);
+      transition: all 0.3s ease;
+    }
+
+    .sub-button:hover {
+      background-color: rgba(255, 255, 255, 0.2);
+      box-shadow: 0 0 10px 3px #fff;
+      transform: translateY(-1px);
+    }
+
+    .coordi-toggle {
+      margin-top: 8px;
+      font-size: 20px;
+      color: #FFD579;
+      background: none;
+      border: none;
+      cursor: pointer;
+      transition: transform 0.2s, text-shadow 0.3s;
+    }
+
+    .coordi-toggle:hover {
+      transform: scale(1.2);
+      text-shadow: 0 0 8px #FFD579;
+    }
+
+    .coordi-img {
+      display: none;
+      margin-top: 12px;
+      width: 100%;
+      border-radius: 12px;
+      object-fit: cover;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <img src="https://i.imgur.com/BU9XWGX.png" alt="처녀자리 캐릭터">
+      <h1>👩 처녀자리 👩</h1>
+      <p>8월 23일 ~ 9월 23일</p>
+    </div>
+
+    <div class="card myth">
+      <h2>신화 소개</h2>
+      <p>처녀자리는 정의의 여신 아스트레아에서 유래한 별자리로, 인간을 끝까지 믿고 지상에 남았던 신이었다. 하지만 인간이 타락하자 결국 아스트레아도 하늘로 떠났고, 그 모습이 별자리가 되었다. 또 다른 설에 따르면 처녀자리는 대지의 여신 데메테르 혹은 그녀의 딸 페르세포네를 상징하기도 한다. 봄마다 지하세계를 떠나 지상으로 올라오는 페르세포네의 모습이 처녀자리로 그려졌다고 전해진다.</p>
+      <p class="spaced"><span class="highlight">유명인:</span> 장원영, 한예슬, 나나, 김혜수, 황정민, 가인</p>
+    </div>
+
+    <div class="card">
+      <h2>성격</h2>
+      <p>분석적이고 디테일에 강한 처녀자리는 완벽주의적 기질이 있다. 자신만의 기준이 확고하고, 이 기준에 어긋나면 속으로는 혹독하게 평가한다. 
+말은 아끼지만 관찰력은 탁월해서 사소한 것도 잘 기억한다. 정리정돈과 계획을 중요하게 여기며, 질서 있는 삶을 추구한다. </p>
+      <p>겉으론 냉정해 보여도 속은 따뜻하고, 정말 마음을 열기까지는 시간이 오래 걸린다. 다소 까칠해 보일 수 있지만, 진심을 알아주면 깊은 정과 애정을 준다.</p>
+    </div>
+
+    <div class="card">
+      <h2>궁합</h2>
+      <p><span class="good">좋은 궁합:</span> 황소자리, 염소자리, 게자리<br>
+         <span class="bad">나쁜 궁합:</span> 사수자리, 쌍둥이자리</p>
+      <p class="spaced">분석적이고 현실적인 처녀자리는 질서와 논리를 중시하며, 감정보다는 책임과 신뢰를 바탕으로 관계를 맺는다.</p>
+      <p>같은 지구 기운의 황소자리, 염소자리와는 가치관이 비슷해 안정적인 궁합을 형성하고, 섬세한 감정의 게자리와도 부드러운 관계가 가능하다.</p>
+      <p>하지만 자유롭고 계획 없는 사수자리나 변덕스러운 쌍둥이자리와는 관계 유지에 어려움을 겪을 수 있다.</p>
+    </div>
+
+    <div class="card">
+      <h2>TIP</h2>
+      <p><span class="good">참고할 것:</span> 금전운과 일의 흐름이 아주 좋고 사람들과의 관계도 원만해서 전체적으로 기분 좋고 바쁜 한 주가 될 거예요!</p>
+      <p><span class="bad">주의할 것:</span> 기운이 최상은 아니라 이벤트나 여행, 격렬한 운동은 피하고 사고 위험에 주의해야 하며, 월요일과 목요일은 조금 조심하는 게 좋겠어요.</p>
+    </div>
+
+    <div class="card">
+      <h2>행운 정보</h2>
+      <p><span class="highlight">행운의 숫자:</span> 2 , 6<br>
+         <span class="highlight">행운의 색상:</span> 갈색, 녹색<br>
+         <span class="highlight">행운의 자음:</span> ㅇ , ㅈ<br>
+         <span class="highlight">베스트 운동:</span> 스쿼시 / 달리기 / 근력운동<br>
+         <span class="highlight">행운의 장소:</span> 서점, 조용한 사무실, 정돈된 공간 → 깔끔하고 정리된 환경이 집중력을 높이고 운을 끌어들여요.<br>
+         <span class="highlight">행운의 아이템:</span> 몸에 수분을 유지한다.<br>
+         <span class="highlight">행운의 코디:</span> 베이직 셔츠 + 플리츠나 슬림 팬츠 + 미니멀 슈즈</p>
+      <button id="toggleBtn" class="coordi-toggle" onclick="toggleCoordi()">+</button>
+      <img id="coordiImage" class="coordi-img" src="https://i.imgur.com/D6MLS5E.png" alt="행운의 코디  이미지">
+    </div>
+  </div>
+
+
+ <div class="extra-buttons">
+
+  <button class="sub-button" onclick="location.href='https://kimjiwoow.github.io/write-/'">뒤로가기</button>
+  
+  <button class="sub-button" onclick="location.href='https://kimjiwoow.github.io/write-/'">포춘카드 뽑기</button>
+</div>
+  <script>
+    function toggleCoordi() {
+      const img = document.getElementById("coordiImage");
+      const button = document.getElementById("toggleBtn");
+
+      if (img.style.display === "block") {
+        img.style.display = "none";
+        button.innerText = "+";
+      } else {
+        img.style.display = "block";
+        button.innerText = "–";
+      }
+    }
+  </script>
+</body>
+</html>
